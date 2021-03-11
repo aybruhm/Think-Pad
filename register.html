@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/mdb.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <title>Fetch API - DRF</title>
+    <title>Register - NotePad</title>
 </head>
 <body>
 
-    <section class="login_body">
-        <div class="login_card card">
+    <section class="register_body">
+        <div class="register_card card">
             <p class="h3">
-                Login
+                Create Account
             </p>
-            <div class="login_form">
-                <form class="row g-3 needs-validation login_form">
+            <div class="register_form">
+                <form class="row g-3 needs-validation register_form">
 
                     <div class="col-md-12">
                         <label for="validationCustomUsername" class="form-label">
@@ -42,14 +42,20 @@
                       </div>
                     </div>
 
-                    <div class="col-12">
-                      <div class="forgotten_password">
-                            <p class="h6">
-                                Forgotten Password? <a href="http://">Click here</a>
-                            </p>
+                    <div class="col-md-12">
+                        <label for="validationCustom03" class="form-label">Confirm Password</label>
+                        <div class="input-group">
+                          <span class="input-group-text" id="inputGroupPrepend">@</span>
+                          <input type="text" class="form-control password_input" id="validationCustom03" required="">
+                          <div class="invalid-feedback">
+                              Your password must be minimum of 8 characters.
+                          </div>
                         </div>
-                        <div class="col-12">
-                            <button class="btn btn-block" type="submit">Login</button>
+                      </div>
+
+                    <div class="col-12">
+                        <div class="button_div">
+                            <button class="btn btn-block" type="submit">register</button>
                         </div>
                     </div>
                 </form>
