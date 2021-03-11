@@ -4,52 +4,89 @@
     box-sizing: border-box;
 }
 
-header.header{
-    background-color: #000;
+section.login_body{
+    background-color: rgb(231, 203, 231);
+    text-align: center;
+    padding: 50px;
+    height: 100vh;
+    background-image: url("../images/main-emoji.png");
+    background-position: center;
+}
 
-    nav.nav{
-        a.nav-link{
-            color: #fff !important;
-            font-size: 1.4rem;
-            font-weight: 600;
-        }
+div.login_card{
+    margin-top: 50px !important;
+    background-image: linear-gradient(to left, rgb(202, 34, 202), rgb(38, 38, 156));
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    border: 2px solid lightness($color: rgb(202, 34, 202));
+    p.h3{
+        color: #fff;
+        padding-top: 30px;
+        font-size: 42px;
+        margin-bottom: 0% !important;
+        font-weight: 550;
     }
 }
 
-section.body{
-    text-align: center;
-    padding-top: 50px;
+@media screen and (max-width: 785px){
+    section.login_body{
+        padding: 30px;
+        background-image: url("../images/main-emoji.png");
+        background-position: left;
+    }
+    div.login_card{
+        width: 100% !important;
+    }
+}
 
-    p.h2{
-        font-size: 42px;
-        color: #000;
+form{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    padding: 50px;
+
+    label.form-label,
+    span.input-group-text{
+        color: #fff !important;
+        font-size: 18px;
         font-weight: 550;
     }
 
-    div.overview{
-        margin-top: 30px;
-        justify-content: center;
-        p.h4{
-            color: #000;
+    .input-group-text{
+        border-radius: 10px 0px 10px 10px !important;
+    }
+
+    .user_input,
+    .password_input{
+        border-radius: 0px 0px 10px 10px !important;
+        height: 40px !important;
+        background-color: transparent;
+    }
+
+    div.forgotten_password{
+        margin-bottom: 30px;
+        p.h6{
+            color: #fff;
         }
-        ul.endpoints{
-            margin-top: 20px;
-            list-style: none;
-        }
-        li.point{
-            text-align: center;
+        a{
+            color: #fff;
+            text-decoration: underline;
+            font-weight: 550;
+            margin-left: 5px;
         }
     }
-}
 
-footer.footer{
-    background-color: #000;
-    color: #fff;
-    padding: 30px;
-    margin-top: 50px;
+    button.btn{
+        border-radius: 20px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 550;
+        background-image: linear-gradient(to left, rgb(202, 34, 202), rgb(38, 38, 156));
+        transition: ease-in 1s;
+    }
 
-    p.copyright{
-        text-align: center;
-        margin-bottom: 0% !important;
+    button.btn:hover{
+        color: #fff;
     }
 }

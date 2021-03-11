@@ -5,56 +5,98 @@
           box-sizing: border-box;
 }
 
-header.header {
-  background-color: #000;
-}
-
-header.header nav.nav a.nav-link {
-  color: #fff !important;
-  font-size: 1.4rem;
-  font-weight: 600;
-}
-
-section.body {
+section.login_body {
+  background-color: #e7cbe7;
   text-align: center;
-  padding-top: 50px;
+  padding: 50px;
+  height: 100vh;
+  background-image: url("../images/main-emoji.png");
+  background-position: center;
 }
 
-section.body p.h2 {
+div.login_card {
+  margin-top: 50px !important;
+  background-image: -webkit-gradient(linear, right top, left top, from(#ca22ca), to(#26269c));
+  background-image: linear-gradient(to left, #ca22ca, #26269c);
+  width: 50%;
+  margin: auto;
+  border-radius: 20px;
+  border: 2px solid 46.27451%;
+}
+
+div.login_card p.h3 {
+  color: #fff;
+  padding-top: 30px;
   font-size: 42px;
-  color: #000;
+  margin-bottom: 0% !important;
   font-weight: 550;
 }
 
-section.body div.overview {
-  margin-top: 30px;
+@media screen and (max-width: 785px) {
+  section.login_body {
+    padding: 30px;
+    background-image: url("../images/main-emoji.png");
+    background-position: left;
+  }
+  div.login_card {
+    width: 100% !important;
+  }
+}
+
+form {
+  text-align: center;
+  display: block;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 50px;
 }
 
-section.body div.overview p.h4 {
-  color: #000;
+form label.form-label,
+form span.input-group-text {
+  color: #fff !important;
+  font-size: 18px;
+  font-weight: 550;
 }
 
-section.body div.overview ul.endpoints {
-  margin-top: 20px;
-  list-style: none;
+form .input-group-text {
+  border-radius: 10px 0px 10px 10px !important;
 }
 
-section.body div.overview li.point {
-  text-align: center;
+form .user_input,
+form .password_input {
+  border-radius: 0px 0px 10px 10px !important;
+  height: 40px !important;
+  background-color: transparent;
 }
 
-footer.footer {
-  background-color: #000;
+form div.forgotten_password {
+  margin-bottom: 30px;
+}
+
+form div.forgotten_password p.h6 {
   color: #fff;
-  padding: 30px;
-  margin-top: 50px;
 }
 
-footer.footer p.copyright {
-  text-align: center;
-  margin-bottom: 0% !important;
+form div.forgotten_password a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 550;
+  margin-left: 5px;
+}
+
+form button.btn {
+  border-radius: 20px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 550;
+  background-image: -webkit-gradient(linear, right top, left top, from(#ca22ca), to(#26269c));
+  background-image: linear-gradient(to left, #ca22ca, #26269c);
+  -webkit-transition: ease-in 1s;
+  transition: ease-in 1s;
+}
+
+form button.btn:hover {
+  color: #fff;
 }
 /*# sourceMappingURL=styles.css.map */
