@@ -1,44 +1,12 @@
+@import "./login.scss";
+@import "./register.scss";
+
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
-section.login_body{
-    background-color: rgb(231, 203, 231);
-    text-align: center;
-    padding: 50px;
-    height: 100vh;
-    background-image: url("../images/main-emoji.png");
-    background-position: center;
-}
-
-div.login_card{
-    margin-top: 50px !important;
-    background-image: linear-gradient(to left, rgb(202, 34, 202), rgb(38, 38, 156));
-    width: 50%;
-    margin: auto;
-    border-radius: 20px;
-    border: 2px solid lightness($color: rgb(202, 34, 202));
-    p.h3{
-        color: #fff;
-        padding-top: 30px;
-        font-size: 42px;
-        margin-bottom: 0% !important;
-        font-weight: 550;
-    }
-}
-
-@media screen and (max-width: 785px){
-    section.login_body{
-        padding: 30px;
-        background-image: url("../images/main-emoji.png");
-        background-position: left;
-    }
-    div.login_card{
-        width: 100% !important;
-    }
-}
 
 form{
     text-align: center;
@@ -77,13 +45,16 @@ form{
         }
     }
 
+    div.button_div{
+        margin-top: 10px;
+    }
+
     button.btn{
         border-radius: 20px;
         color: #fff;
         font-size: 18px;
         font-weight: 550;
         background-image: linear-gradient(to left, rgb(202, 34, 202), rgb(38, 38, 156));
-        transition: ease-in 1s;
     }
 
     button.btn:hover{
