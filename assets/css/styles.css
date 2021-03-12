@@ -145,6 +145,147 @@ form button.btn:hover {
   color: #fff;
 }
 
+body.home_body {
+  background-image: url("../images/main-emoji.png");
+  background-position: contain;
+}
+
+div.header_card {
+  background-image: -webkit-gradient(linear, right top, left top, from(#ca22ca), to(#26269c));
+  background-image: linear-gradient(to left, #ca22ca, #26269c);
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+div.header_card div.header_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+div.header_card div.date {
+  color: #fff;
+}
+
+div.header_card div.date p.h5 {
+  padding-top: 10px;
+  font-weight: 650;
+  font-size: 22px;
+  margin-bottom: 0% !important;
+}
+
+div.header_card div.date span.week,
+div.header_card div.date span.month_year {
+  font-size: 18px;
+}
+
+div.header_card img {
+  width: 50px;
+}
+
+main.home_body {
+  margin-top: 50px;
+}
+
+div.main_card {
+  background-image: -webkit-gradient(linear, right top, left top, from(#ca22ca), to(#26269c));
+  background-image: linear-gradient(to left, #ca22ca, #26269c);
+  padding: 20px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+div.main_card p.h2 {
+  color: #fff;
+  font-weight: 600;
+}
+
+hr.hr {
+  color: #fff;
+  height: 5px;
+  border-radius: 20px;
+  width: 20%;
+}
+
+div.thoughts {
+  margin-top: 20px;
+}
+
+div.thoughts div.col-md-4 {
+  margin-bottom: 40px;
+}
+
+div.thoughts div.col-md-4:last-child {
+  margin-bottom: 0%;
+}
+
+div.thoughts div.thought {
+  margin-bottom: 40px;
+}
+
+div.thoughts div.thought p.h3 {
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 550;
+}
+
+div.thoughts div.thought p.h5 {
+  color: #fff;
+}
+
+div.thoughts div.thought_head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.thoughts span.thought_meta a {
+  color: #fff;
+  text-decoration: underline;
+  margin-right: 5px;
+}
+
+div.thoughts span.thought_meta a:last-child {
+  margin-right: 0%;
+}
+
+div.thoughts div.thought:last-child {
+  margin-bottom: 0%;
+}
+
+nav.bottom_nav {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+div.bottom_nav_card {
+  background-image: -webkit-gradient(linear, right top, left top, from(#ca22ca), to(#26269c));
+  background-image: linear-gradient(to left, #ca22ca, #26269c);
+  padding: 20px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+div.bottom_nav_card ul.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.bottom_nav_card a.nav-link {
+  color: #fff;
+  font-weight: 550;
+  font-size: 18px;
+}
+
 @media screen and (max-width: 785px) {
   div.register_card p.h3,
   div.login_card p.h3 {

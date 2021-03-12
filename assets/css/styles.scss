@@ -67,6 +67,131 @@ form{
     }
 }
 
+body.home_body{
+    background-image: url("../images/main-emoji.png");
+    background-position: contain;
+}
+
+div.header_card{
+    background-image: linear-gradient(to left, rgb(202, 34, 202), rgb(38, 38, 156));
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 20px 20px 20px 20px;
+    
+    div.header_flex{
+        display: flex;
+        justify-content: space-between !important;
+    }
+
+    div.date{
+        color: #fff;
+        p.h5{
+            padding-top: 10px;
+            font-weight: 650;
+            font-size: 22px;
+            margin-bottom: 0% !important;
+        }
+        span.week,
+        span.month_year{
+            font-size: 18px;
+        }
+    }
+
+    img{
+        width: 50px;
+    }
+}
+
+main.home_body{
+    margin-top: 50px;
+}
+
+div.main_card{
+    background-image: linear-gradient(to left, rgb(202, 34, 202), rgb(38, 38, 156));
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px;
+
+    p.h2{
+        color: #fff;
+        font-weight: 600;
+    }
+}
+
+hr.hr{
+    color: #fff;
+    height: 5px;
+    border-radius: 20px;
+    width: 20%;
+}
+
+div.thoughts{
+    margin-top: 20px;
+    
+    div.col-md-4{
+        margin-bottom: 40px;
+    }
+
+    div.col-md-4:last-child{
+        margin-bottom: 0%;
+    }
+
+    div.thought{
+        margin-bottom: 40px;
+
+        p.h3{
+            margin-bottom: 10px;
+            color: #fff;
+            font-weight: 550;
+        }
+        p.h5{
+            color: #fff;
+        }
+    }
+
+    div.thought_head{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    span.thought_meta{
+        a{
+            color: #fff;
+            text-decoration: underline;
+            margin-right: 5px;
+        }
+        a:last-child{
+            margin-right: 0%;
+        }
+    }
+
+    div.thought:last-child{
+        margin-bottom: 0%;
+    }
+}
+
+nav.bottom_nav{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+div.bottom_nav_card{
+    background-image: linear-gradient(to left, rgb(202, 34, 202), rgb(38, 38, 156));
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px;
+
+    ul.nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    a.nav-link{
+        color: #fff;
+        font-weight: 550;
+        font-size: 18px;
+    }
+}
+
+
 @media screen and (max-width:785px){
     div.register_card p.h3,
     div.login_card p.h3{
