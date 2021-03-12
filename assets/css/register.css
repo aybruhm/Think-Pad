@@ -3,7 +3,7 @@ section.register_body {
   text-align: center;
   padding: 50px;
   height: 100vh;
-  background-image: url("../images/main-emoji.png");
+  background-image: url("../img/main-emoji.png");
   background-position: center;
 }
 
@@ -28,7 +28,7 @@ div.register_card p.h3 {
 @media screen and (max-width: 785px) {
   section.register_body {
     padding: 30px;
-    background-image: url("../images/main-emoji.png");
+    background-image: url("../img/main-emoji.png");
     background-position: left;
   }
   div.register_card {

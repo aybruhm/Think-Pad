@@ -3,7 +3,7 @@ section.login_body {
   text-align: center;
   padding: 50px;
   height: 100vh;
-  background-image: url("../images/main-emoji.png");
+  background-image: url("../img/main-emoji.png");
   background-position: center;
 }
 
@@ -28,7 +28,7 @@ div.login_card p.h3 {
 @media screen and (max-width: 785px) {
   section.login_body {
     padding: 30px;
-    background-image: url("../images/main-emoji.png");
+    background-image: url("../img/main-emoji.png");
     background-position: left;
   }
   div.login_card {
@@ -41,7 +41,7 @@ section.register_body {
   text-align: center;
   padding: 50px;
   height: 100vh;
-  background-image: url("../images/main-emoji.png");
+  background-image: url("../img/main-emoji.png");
   background-position: center;
 }
 
@@ -66,7 +66,7 @@ div.register_card p.h3 {
 @media screen and (max-width: 785px) {
   section.register_body {
     padding: 30px;
-    background-image: url("../images/main-emoji.png");
+    background-image: url("../img/main-emoji.png");
     background-position: left;
   }
   div.register_card {
@@ -146,8 +146,9 @@ form button.btn:hover {
 }
 
 body.home_body {
-  background-image: url("../images/main-emoji.png");
+  background-image: url("../img/main-emoji.png");
   background-position: contain;
+  background-color: #e7cbe7;
 }
 
 div.header_card {
