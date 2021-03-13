@@ -1,5 +1,6 @@
 @import "./login.scss";
 @import "./register.scss";
+@import "./edit-thought.scss";
 
 *{
     margin: 0%;
@@ -103,11 +104,13 @@ div.header_card{
     }
 }
 
-main.home_body{
+main.home_body,
+main.edit_thought{
     margin-top: 50px;
 }
 
-div.main_card{
+div.main_card,
+div.edit_card{
     background-image: linear-gradient(to left, rgb(202, 34, 202), rgb(38, 38, 156));
     padding: 20px;
     border-radius: 20px 20px 20px 20px;

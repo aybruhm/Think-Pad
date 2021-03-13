@@ -74,6 +74,42 @@ div.register_card p.h3 {
   }
 }
 
+form.edit_form {
+  padding: 0% !important;
+}
+
+form.edit_form div.col-md-12 {
+  text-align: left;
+}
+
+form.edit_form label.form-label,
+form.edit_form span.input-group-text {
+  color: #fff !important;
+  font-size: 18px;
+  font-weight: 550;
+}
+
+form.edit_form textarea.edit_textarea {
+  background-color: transparent;
+}
+
+form.edit_form div.col-md-12:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+button.edit_btn {
+  border-radius: 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 550;
+  background-image: -webkit-gradient(linear, right top, left top, from(#ca22ca), to(#26269c));
+  background-image: linear-gradient(to left, #ca22ca, #26269c);
+}
+
+button.bedit_btntn:hover {
+  color: #fff;
+}
+
 * {
   margin: 0%;
   padding: 0%;
@@ -188,18 +224,21 @@ div.header_card img {
   width: 50px;
 }
 
-main.home_body {
+main.home_body,
+main.edit_thought {
   margin-top: 50px;
 }
 
-div.main_card {
+div.main_card,
+div.edit_card {
   background-image: -webkit-gradient(linear, right top, left top, from(#ca22ca), to(#26269c));
   background-image: linear-gradient(to left, #ca22ca, #26269c);
   padding: 20px;
   border-radius: 20px 20px 20px 20px;
 }
 
-div.main_card p.h2 {
+div.main_card p.h2,
+div.edit_card p.h2 {
   color: #fff;
   font-weight: 600;
 }
