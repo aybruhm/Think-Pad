@@ -264,6 +264,43 @@ div.thoughts div.thought:last-child {
   margin-bottom: 0%;
 }
 
+div.pag_body {
+  margin-top: 20px;
+}
+
+div.pag_card {
+  background-image: -webkit-gradient(linear, right top, left top, from(#ca22ca), to(#26269c));
+  background-image: linear-gradient(to left, #ca22ca, #26269c);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+ul.pag {
+  list-style: none;
+  padding: 0%;
+  margin: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+ul.pag a.pag-link {
+  margin-right: 20px;
+  font-size: 18px;
+  color: #fff;
+}
+
+ul.pag a.pag-link.active {
+  font-weight: 550;
+  color: #ca22ca !important;
+  background-color: #e7cbe7;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 nav.bottom_nav {
   margin-top: 50px;
   margin-bottom: 10px;

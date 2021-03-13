@@ -173,6 +173,38 @@ div.thoughts{
     }
 }
 
+div.pag_body{
+    margin-top: 20px;
+}
+
+div.pag_card{
+    background-image: linear-gradient(to left, rgb(202, 34, 202), rgb(38, 38, 156));
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ul.pag{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+
+    a.pag-link{
+        margin-right: 20px;
+        font-size: 18px;
+        color: #fff;
+    }
+
+    a.pag-link.active{
+        font-weight: 550;
+        color: rgb(202, 34, 202) !important;
+        background-color: #e7cbe7;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
+
 nav.bottom_nav{
     margin-top: 50px;
     margin-bottom: 10px;
