@@ -154,7 +154,7 @@ body.home_body {
 div.header_card {
   background-image: -webkit-gradient(linear, right top, left top, from(#ca22ca), to(#26269c));
   background-image: linear-gradient(to left, #ca22ca, #26269c);
-  padding: 20px;
+  padding: 10px;
   margin-top: 10px;
   border-radius: 20px 20px 20px 20px;
 }
@@ -268,7 +268,7 @@ nav.bottom_nav {
 div.bottom_nav_card {
   background-image: -webkit-gradient(linear, right top, left top, from(#ca22ca), to(#26269c));
   background-image: linear-gradient(to left, #ca22ca, #26269c);
-  padding: 20px;
+  padding: 10px;
   border-radius: 20px 20px 20px 20px;
 }
 
