@@ -287,6 +287,10 @@ div.bottom_nav_card a.nav-link {
   font-size: 18px;
 }
 
+div.bottom_nav_card svg {
+  font-size: 36px;
+}
+
 @media screen and (max-width: 785px) {
   div.register_card p.h3,
   div.login_card p.h3 {
