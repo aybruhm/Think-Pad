@@ -29,7 +29,37 @@ button.edit_btn{
     background-image: linear-gradient(to left, rgb(202, 34, 202), rgb(38, 38, 156));
 }
 
-button.bedit_btntn:hover{
+button.edit_btn:hover{
     color: #fff;
 }
 
+// Confirm Delete
+
+p.confirm{
+    font-size: 24px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+span.alert-danger{
+    color: rgb(228, 212, 212);
+    background-color: rgb(238, 9, 9);
+
+    svg{
+        font-size: 22px;
+    }
+}
+
+button.btn.no_btn,
+button.btn.yes_btn{
+    border-radius: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 550;
+    background-image: linear-gradient(to left, rgb(202, 34, 202), rgb(38, 38, 156));
+}
+
+button.btn.no_btn:hover,
+button.btn.yes_btn:hover{
+    color: #fff;
+}
