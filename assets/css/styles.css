@@ -256,8 +256,29 @@ div.header_card img {
 
 main.home_body,
 main.edit_thought,
+main.publish_thought,
 main.profile {
   margin-top: 50px;
+}
+
+div.profile_set p.h5 {
+  padding-top: 10px !important;
+  padding-bottom: 8px !important;
+  margin-bottom: 0% !important;
+  color: #fff !important;
+  font-weight: 650;
+  font-size: 22px;
+}
+
+div.profile_signout p.h5 {
+  padding-top: 10px !important;
+  padding-bottom: 8px !important;
+  margin-bottom: 0% !important;
+}
+
+div.profile_signout p.h5 svg {
+  color: #fff !important;
+  font-size: 22px;
 }
 
 div.main_card,
