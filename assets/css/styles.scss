@@ -105,12 +105,14 @@ div.header_card{
 }
 
 main.home_body,
-main.edit_thought{
+main.edit_thought,
+main.profile{
     margin-top: 50px;
 }
 
 div.main_card,
-div.edit_card{
+div.edit_card,
+div.profile_card{
     background-image: linear-gradient(to left, rgb(202, 34, 202), rgb(38, 38, 156));
     padding: 20px;
     border-radius: 20px 20px 20px 20px;
@@ -121,6 +123,36 @@ div.edit_card{
     }
 }
 
+div.profile_header{
+    text-align: center;
+    img{
+        width: 150px;
+        border: 5px solid #e7cbe7;
+        margin-bottom: 20px;
+    }
+}
+
+main.profile{
+    margin-top: 30px !important;
+}
+
+main.profile {
+    form{
+        input,
+        textarea{
+            color: #fff !important;
+        }
+        textarea{
+            margin-bottom: 0% !important;
+            padding-bottom: 0% !important;
+        }
+        input:focus,
+        textarea:focus{
+            color: #000 !important;
+            background-color: #e7cbe7 !important;
+        }
+    }
+}
 hr.hr{
     color: #fff;
     height: 5px;

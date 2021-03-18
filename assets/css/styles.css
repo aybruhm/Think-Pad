@@ -255,12 +255,14 @@ div.header_card img {
 }
 
 main.home_body,
-main.edit_thought {
+main.edit_thought,
+main.profile {
   margin-top: 50px;
 }
 
 div.main_card,
-div.edit_card {
+div.edit_card,
+div.profile_card {
   background-image: -webkit-gradient(linear, right top, left top, from(#ca22ca), to(#26269c));
   background-image: linear-gradient(to left, #ca22ca, #26269c);
   padding: 20px;
@@ -268,9 +270,40 @@ div.edit_card {
 }
 
 div.main_card p.h2,
-div.edit_card p.h2 {
+div.edit_card p.h2,
+div.profile_card p.h2 {
   color: #fff;
   font-weight: 600;
+}
+
+div.profile_header {
+  text-align: center;
+}
+
+div.profile_header img {
+  width: 150px;
+  border: 5px solid #e7cbe7;
+  margin-bottom: 20px;
+}
+
+main.profile {
+  margin-top: 30px !important;
+}
+
+main.profile form input,
+main.profile form textarea {
+  color: #fff !important;
+}
+
+main.profile form textarea {
+  margin-bottom: 0% !important;
+  padding-bottom: 0% !important;
+}
+
+main.profile form input:focus,
+main.profile form textarea:focus {
+  color: #000 !important;
+  background-color: #e7cbe7 !important;
 }
 
 hr.hr {
